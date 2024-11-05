@@ -2,7 +2,7 @@
 """ Module that contains a basic Flask app with Babel
 and dynamic locale selection. """
 from flask import Flask, render_template, request
-from flask_babel import Babel, get_locale
+from flask_babel import Babel
 
 app = Flask(__name__)
 
